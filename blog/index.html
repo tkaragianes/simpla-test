@@ -36,10 +36,10 @@
           <a href="/">Home</a>
         </li>
         <li>
-          <a href="/about.html">About</a>
+          <a href="/about">About</a>
         </li>
         <li>
-          <a href="/blog.html">Blog</a>
+          <a href="/blog">Blog</a>
         </li>
       </ul>
     </nav>
@@ -48,15 +48,15 @@
         Blog Page
       </h1>
       <!-- Block of editable richtext -->
-      <simpla-text sid="/text"></simpla-text>
+      <simpla-text sid="text"></simpla-text>
       <!-- An editable image -->
-      <img is="simpla-img" sid="/section/img">
-      <simpla-article sid="/article"></simpla-article>
+      <img is="simpla-img" sid="section/img">
+      <simpla-article sid="article"></simpla-article>
       <ul>
-        <simpla-collection path="/collection">
+        <simpla-collection sid="collection">
           <template>
             <li>
-              <simpla-text sid="/list/[item]"></simpla-text>
+              <simpla-text sid="list/[item]"></simpla-text>
             </li>
           </template>
         </simpla-collection>
