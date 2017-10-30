@@ -1,0 +1,34 @@
+{
+  "name": "simpla-markdown",
+  "version": "0.4.8",
+  "authors": [
+    "Simpla"
+  ],
+  "description": "A markdown writer for the Simpla content system",
+  "keywords": [
+    "simpla",
+    "content",
+    "markdown",
+    "cms",
+    "custom element",
+    "web component"
+  ],
+  "main": "simpla-markdown.html",
+  "license": "MIT",
+  "homepage": "https://github.com/SimplaElements/simpla-markdown/",
+  "ignore": [
+    "*",
+    "!*.html",
+    "!LICENSE"
+  ],
+  "dependencies": {
+    "polymer": "^1.8.0",
+    "simpla-styles": "^1.0.0",
+    "iron-icon": "PolymerElements/iron-icon",
+    "iron-iconset-svg": "PolymerElements/iron-iconset-svg",
+    "simpla-element-behavior": "^0.2.0"
+  },
+  "devDependencies": {
+    "web-component-tester": "^5.0.0"
+  }
+}

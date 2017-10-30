@@ -43,25 +43,24 @@
         </li>
       </ul>
     </nav>
-    <main gid="about-page">
+    <main gid="blog-page">
       <h1>
-        About Page
+        Blog Page
       </h1>
+      <!-- Block of editable richtext -->
+      <simpla-text sid="/text"></simpla-text>
+      <!-- An editable image -->
+      <img is="simpla-img" sid="/section/img">
+      <simpla-article sid="/article"></simpla-article>
+      <ul>
+        <simpla-collection path="/collection">
+          <template>
+            <li>
+              <simpla-text sid="/list/[item]"></simpla-text>
+            </li>
+          </template>
+        </simpla-collection>
+      </ul>
     </main>
-    <!-- Block of editable richtext -->
-    <simpla-text sid="/text"></simpla-text>
-    <!-- An editable image -->
-    <img is="simpla-img" sid="/section/img">
-    <simpla-article sid="/article"></simpla-article>
-    <ul>
-      <simpla-collection path="/collection">
-        <template>
-          <li>
-            <simpla-text sid="/list/[item]"></simpla-text>
-          </li>
-        </template>
-      </simpla-collection>
-    </ul>
-
   </body>
 </html>
