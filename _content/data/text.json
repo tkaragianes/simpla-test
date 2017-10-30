@@ -1,9 +1,9 @@
 {
   "type": "Text",
   "data": {
-    "text": "<p>&lt;h1&gt;Hello World!&lt;/h1&gt;</p>"
+    "text": "<p>Hello World!</p>"
   },
   "path": "/text",
   "createdAt": "2017-10-29T06:23:41.199Z",
-  "updatedAt": "2017-10-30T18:21:37.747Z"
+  "updatedAt": "2017-10-30T18:21:54.235Z"
 }
