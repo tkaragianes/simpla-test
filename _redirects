@@ -1,0 +1,2 @@
+# Redirects all blog posts to the post template
+/blog/* /blog/post.html
